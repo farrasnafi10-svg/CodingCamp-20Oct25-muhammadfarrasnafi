@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Agro Nusa Protindo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="active">Beranda</a></li>
+      <li><a href="product.html">Produk</a></li>
+      <li><a href="about.html">Tentang Kami</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTAINER -->
+  <div class="main-container fade-in show">
+
+    <!-- SELAMAT DATANG -->
+    <section>
+      <h1 style="text-align:center; font-size:2.5em; color:#3a9b48;">Selamat Datang di PT Agro Nusa Protindo</h1>
+      <p style="text-align:center; max-width:700px; margin: 20px auto;">
+        Kami adalah perusahaan yang berkomitmen menyediakan daging olahan terbaik, khususnya Meltique Beef yang terkenal akan kelembutan dan cita rasa istimewanya.
+      </p>
+    </section>
+
+    <!-- PROFIL PERUSAHAAN / VISI & MISI -->
+    <section>
+      <h2 style="text-align:center;">Profil & Visi Misi</h2>
+      <div class="preview-container">
+        <div class="preview-card">
+          <h3>Profil Perusahaan</h3>
+          <p>PT Agro Nusa Protindo adalah perusahaan yang bergerak di bidang pengolahan dan distribusi produk daging berbasis protein hewani. Berdiri pada tahun 2010, perusahaan ini memiliki visi menjadi perusahaan makanan berbasis protein hewani yang terintegrasi.</p>
+        </div>
+        <div class="preview-card">
+          <h3>Visi & Misi</h3>
+          <p><strong>Visi:</strong> Menjadi Perusahaan makanan berbasis protein hewani yang terintegrasi.</p>
+          <p><strong>Misi:</strong></p>
+          <ul style="text-align:left; padding-left: 20px;">
+            <li>Menghasilkan Produk Pertanian dan Peternakan halal, aman, bergizi, dan berkualitas</li>
+            <li>Memaksimalkan sumberdaya lokal sebagai mitra utama</li>
+            <li>Terus menerus berinovasi dan berkreasi dalam pengembangan produk</li>
+            <li>Memenuhi kepentingan para pemangku kepentingan</li>
+            <li>Kesejahteraan bersama</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUK UNGGULAN -->
+    <section>
+      <h2 style="text-align:center;">Produk Unggulan</h2>
+      <div class="kategori-container">
+        <div class="kategori-card" data-type="sapi">
+          <img src="images/sapi.jpg" alt="Sapi">
+          <p>Sapi</p>
+        </div>
+        <div class="kategori-card" data-type="ayam">
+          <img src="images/ayam.jpg" alt="Ayam">
+          <p>Ayam</p>
+        </div>
+        <div class="kategori-card" data-type="kambing">
+          <img src="images/kambing.jpg" alt="Kambing">
+          <p>Kambing</p>
+        </div>
+      </div>
+      <div id="detail-produk"></div>
+    </section>
+
+    <!-- HUBUNGI KAMI -->
+    <section>
+      <h2 style="text-align:center;">Hubungi Kami</h2>
+      <form class="contact-form">
+        <input type="text" name="nama" placeholder="Nama" required>
+        <input type="text" name="alamat" placeholder="Alamat" required>
+        <input type="text" name="pesanan" placeholder="Pesanan" required>
+        <textarea name="pesan" placeholder="Kirim Pesan" required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+  </div>
+
+  <button id="backToTop">↑</button>
+  <script src="script.js" defer></script>
+</body>
+</html>
